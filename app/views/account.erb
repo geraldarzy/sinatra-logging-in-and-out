@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">  
   </head>
   <body id="page-top">
+    Hello <%=@user.username%>, your balance is <%=@user.balance%>
+
+    <form method='get' action='/logout'>
+      <input type='button' value='Log out'>
+    </form>
     
 
   </body>
